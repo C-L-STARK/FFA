@@ -1,0 +1,1 @@
+import{_ as e,c as t,o as a}from"./chunks/framework.CVqs_p0L.js";const m=JSON.parse('{"title":"","description":"","frontmatter":{"layout":"home"},"headers":[],"relativePath":"draw/index.md","filePath":"draw/index.md","lastUpdated":1719761409000}'),r={name:"draw/index.md"};function d(n,o,s,c,i,p){return a(),t("div")}const l=e(r,[["render",d]]);export{m as __pageData,l as default};

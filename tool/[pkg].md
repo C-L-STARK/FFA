@@ -4,10 +4,13 @@ layout: doc
 
 <script setup>
 import { useData } from 'vitepress'
+import { onMounted } from 'vue'
 
 const { params } = useData()
 
-document.title = params.value.title
+onMounted(() => {
+    document.title = params.value.title
+})
 
 </script>
 

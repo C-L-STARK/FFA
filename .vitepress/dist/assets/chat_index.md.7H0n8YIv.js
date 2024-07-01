@@ -1,0 +1,1 @@
+import{_ as e,c as t,o as a}from"./chunks/framework.CVqs_p0L.js";const m=JSON.parse('{"title":"","description":"","frontmatter":{"layout":"home"},"headers":[],"relativePath":"chat/index.md","filePath":"chat/index.md","lastUpdated":1719761409000}'),n={name:"chat/index.md"};function o(c,r,s,d,i,p){return a(),t("div")}const l=e(n,[["render",o]]);export{m as __pageData,l as default};

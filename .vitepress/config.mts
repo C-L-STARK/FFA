@@ -313,75 +313,217 @@ export default defineConfig({
       themeConfig: {
         siteTitle: 'Free For All !',
         nav: [
-          { text: 'Home', link: '/' },
+          { text: 'Home', link: '/en' },
           {
-            text: 'LLMs',
+            text: 'Chat',
             items: [
-              { text: 'Item A', link: '/item-1' },
-              { text: 'Item B', link: '/item-2' },
-              { text: 'Item C', link: '/item-3' }
+              { text: 'Open-gpt-4o', link: '/en/chat/open-gpt-4o' },
+              { text: 'Glm-4v-9b', link: '/en/chat/glm-4v-9b' },
+              { text: 'Google-Gemma-2-9B', link: '/en/chat/Google-Gemma-2-9B' },
+              { text: 'Gpt-3.5-turbo', link: '/en/chat/fastx-ai' },
+              { text: 'Qwen2-7B-instruct', link: '/en/chat/Qwen2-7B-instruct' },
+              { text: 'Meta-Llama-2-7B', link: '/en/chat/Meta-Llama-2-7B' },
+              { text: 'Meta-Llama-2-13B', link: '/en/chat/Meta-Llama-2-13B' },
+              { text: 'Meta-Llama-3-8B', link: '/en/chat/Meta-Llama-3-8B' },
+              { text: 'IDEFICS2-Instruction', link: '/en/chat/IDEFICS2-Instruction' },
             ]
           },
           {
             text: 'Draw',
             items: [
-              { text: 'Item A', link: '/item-1' },
-              { text: 'Item B', link: '/item-2' },
-              { text: 'Item C', link: '/item-3' }
+              { text: 'Free Stable Diffusion 3 Medium 1', link: '/en/draw/stabilityai-stable-diffusion-3-medium' },
+              { text: 'Free Stable Diffusion 3 Medium 2', link: '/en/draw/markmagic-stable-diffusion-3' },
+              { text: 'Free DALLE-4K', link: '/en/draw/mukaist-dalle-4k' },
+              { text: 'Free Midjourney', link: '/en/draw/mukaist-midjourney' },
+              { text: 'Free STABLE HAMSTER 🐹', link: '/en/draw/prithivmlmods-stable-hamster' },
+              { text: 'Free Cartoon Image Generation', link: '/en/draw/cagliostrolab-animagine-xl-3-1' },
+              { text: 'Free DALL-E 3 XL V2', link: '/en/draw/ehristoforu-dalle-3-xl-lora-v2' },
+              { text: 'FlashSD: StableDiffusion3 Distilled Model', link: '/en/draw/jasperai-flash-sd3' },
+              { text: 'Three Elements Image Synthesis (Style, Character, Action)', link: '/en/draw/okaris-omni-zero' },
+              { text: 'PixArt-Sigma 1024px', link: '/en/draw/pixart-alpha-pixart-sigma' },
+              { text: 'Online Drawing V2.5', link: '/en/draw/playgroundai-playground-v2-5' },
+              { text: 'GALLO 3XL Online Drawing', link: '/en/draw/prithivmlmods-gallo-3xl' },
+              { text: 'Free 4K Image Generate', link: '/en/draw/prithivmlmods-imagineo-4k' },
+              { text: 'Tencent - Hunyuan Drawing', link: '/en/draw/tencent-hunyuan-hunyuandit' }
             ]
           },
           {
             text: 'Media',
             items: [
-              { text: 'Item A', link: '/item-1' },
-              { text: 'Item B', link: '/item-2' },
-              { text: 'Item C', link: '/item-3' }
+              { text: 'Video Translation SoniTranslate', link: '/en/media/r3gm-sonitranslate-translate-audio-of-a-video-content' },
+              { text: 'Image High-Resolution Upscaling', link: '/en/media/gokaygokay-aurasr' },
+              { text: 'Remove Video Background (Forever Free)', link: '/en/media/amirgame197-remove-video-background' },
+              { text: 'Remove Image Background (Forever Free)', link: '/en/media/schroneko-transparent-background' },
+              { text: 'Add Background Sound Effects to a Video Based on Instructions', link: '/en/media/ymzhang319-foleycrafter' },
+              { text: 'Text-to-Audio Stable Audio Generator', link: '/en/media/artificialguybr-stable-audio-open-zero' },
+              { text: 'Text-to-Audio ChatTTS Forge', link: '/en/media/lenml-chattts-forge' },
+              { text: 'Audio to Text Whisper Large V3: Transcribe Audio', link: '/en/media/hf-audio-whisper-large-v3' },
+              { text: 'Text-to-Video Open-Sora', link: '/en/media/kadirnar-open-sora' },
+              { text: 'Text-to-Video AnimateDiff-Lightning', link: '/en/media/bytedance-animatediff-lightning' },
+              { text: 'Text-to-Video Adaface animate', link: '/en/media/adaface-neurips-adaface-animate' },
+              { text: 'Text-to-Video Animagine XL 3.0', link: '/en/media/linaqruf-animagine-xl' },
+              { text: 'Image-to-Video Stable Video Diffusion Img2Vid', link: '/en/media/xi0v-stable-video-diffusion-img2vid' },
+              { text: 'Video Content Analysis VideoLLaMA 2', link: '/en/media/lixin4ever-videollama2' },
+              { text: 'Tencent Avatar Creation', link: '/en/media/tencentarc-photomaker' },
+              { text: 'Face to All Avatar Creation', link: '/en/media/multimodalart-face-to-all' },
+              { text: 'Image Content Recognition', link: '/en/media/gokaygokay-florence-2' },
+              { text: 'Image Content Recognition (Multimodal Source Information)', link: '/en/media/epfl-vilab-4m' },
+              { text: 'IC-Light Modify Image Light Source', link: '/en/media/lllyasviel-ic-light' },
+              { text: 'Extract Image Prompts and Convert to Line Art', link: '/en/media/tori29umai-sketch2lineart' },
+              { text: 'Image Depth Calculation', link: '/en/media/depth-anything-depth-anything-v2' },
+              { text: 'Video Depth Calculation', link: '/en/media/jhshao-chronodepth' },
+              { text: 'Edit Video Based on Prompts', link: '/en/media/koi953215-narcan-demo' },
+              { text: 'Get Detailed Image Description', link: '/en/media/gokaygokay-sd3-long-captioner' },
+              { text: 'Generate a Panoramic Video of a 3D Model (Rotating Around)', link: '/en/media/ashawkey-lgm' },
+              { text: 'Generate a 3D Model in GLB Format Based on an Image', link: '/en/media/wuvin-unique3d' },
+              { text: 'Cartoon Video Generation (2 Seconds)', link: '/en/media/doubiiu-tooncrafter' },
+              { text: 'Image-to-Video (4 Seconds)', link: '/en/media/modelscope-exvideo-svd-128f-v1' },
+              { text: 'Image-to-Video (3 Seconds) AnimateLCM', link: '/en/media/wangfuyun-animatelcm-svd' },
+              { text: 'Image Blending PuLID', link: '/en/media/yanze-pulid' },
+              { text: 'Remove 3D Image Background and Generate 3D (Multi-View) Model', link: '/en/media/tencentarc-instantmesh' },
+              { text: 'Audio Generation AICoverGen', link: '/en/media/r3gm-aicovergen' },
+              { text: 'Image to Audio', link: '/en/media/fffiloni-image-to-music-v2' },
+              { text: 'IP-Adapter-FaceID Plus', link: '/en/media/multimodalart-ip-adapter-faceid' }
+            ]
+          },
+          {
+            text: 'Tool',
+            items: [
+              { "text": "Screenshot to HTML", "link": "/en/tool/huggingfacem4-screenshot2html" },
+              { "text": "AI Outfit Diffusion", "link": "/en/tool/levihsu-ootdiffusion" },
+              { "text": "AI Outfit Change", "link": "/en/tool/yisol-idm-vton" },
+              { "text": "Video to VR", "link": "/en/tool/koi953215-diffir2vr" },
+              { "text": "Emoji Generation", "link": "/en/tool/cfahlgren1-emoji-generator-by-fofr" },
+              { "text": "Instruction Pretraining", "link": "/en/tool/davanstrien-instruction-synthesizer" },
+              { "text": "Math Solver Expert", "link": "/en/tool/tonic-math" },
+              { "text": "Open LLM Leaderboard", "link": "/en/tool/open-llm-leaderboard-open-llm-leaderboard" }
             ]
           },
           {
             text: 'API Key',
-            items: [
-              { text: 'Item A', link: '/item-1' },
-              { text: 'Item B', link: '/item-2' },
-              { text: 'Item C', link: '/item-3' }
-            ]
-          },
-          {
-            text: 'Tools',
-            items: [
-              { text: 'Item A', link: '/item-1' },
-              { text: 'Item B', link: '/item-2' },
-              { text: 'Item C', link: '/item-3' }
-            ]
+            link: '/en/api-key'
           },
           {
             text: 'Software',
-            items: [
-              { text: 'Item A', link: '/item-1' },
-              { text: 'Item B', link: '/item-2' },
-              { text: 'Item C', link: '/item-3' }
-            ]
+            link: '/en/software'
           },
           {
-            text: 'FK Pay',
-            items: [
-              { text: 'Item A', link: '/item-1' },
-              { text: 'Item B', link: '/item-2' },
-              { text: 'Item C', link: '/item-3' }
-            ]
+            text: 'Free Try',
+            link: '/en/fk-pay'
           },
-          { text: 'About', link: '/markdown-examples' }
+          { text: 'About Us', link: '/en/about' }
         ],
-    
-        sidebar: [
-          {
-            text: 'About FFA',
+
+        sidebar: {
+          '/en/chat/': [{
+            text: 'Chat',
             items: [
-              { text: 'Markdown Examples', link: '/markdown-examples' },
-              { text: 'Runtime API Examples', link: '/api-examples' }
+              { text: 'Free Open-gpt-4o', link: '/en/chat/open-gpt-4o' },
+              { text: 'Free Glm-4v-9b', link: '/en/chat/glm-4v-9b' },
+              { text: 'Free Google-Gemma-2-9B', link: '/en/chat/Google-Gemma-2-9B' },
+              { text: 'Free Gpt-3.5-turbo', link: '/en/chat/fastx-ai' },
+              { text: 'Free Qwen2-7B-instruct', link: '/en/chat/Qwen2-7B-instruct' },
+              { text: 'Free Meta-Llama-2-7B', link: '/en/chat/Meta-Llama-2-7B' },
+              { text: 'Free Meta-Llama-2-13B', link: '/en/chat/Meta-Llama-2-13B' },
+              { text: 'Free Meta-Llama-3-8B', link: '/en/chat/Meta-Llama-3-8B' },
+              { text: 'Free IDEFICS2-Instruction', link: '/en/chat/IDEFICS2-Instruction' },
             ]
-          }
-        ],
+          }],
+          '/en/draw/': [{
+            text: 'Draw',
+            items: [
+              { text: 'Free Stable Diffusion 3 Medium 1', link: '/en/draw/stabilityai-stable-diffusion-3-medium' },
+              { text: 'Free Stable Diffusion 3 Medium 2', link: '/en/draw/markmagic-stable-diffusion-3' },
+              { text: 'Free DALLE-4K', link: '/en/draw/mukaist-dalle-4k' },
+              { text: 'Free Midjourney', link: '/en/draw/mukaist-midjourney' },
+              { text: 'Free STABLE HAMSTER 🐹', link: '/en/draw/prithivmlmods-stable-hamster' },
+              { text: 'Free Cartoon Image Generation', link: '/en/draw/cagliostrolab-animagine-xl-3-1' },
+              { text: 'Free DALL-E 3 XL V2', link: '/en/draw/ehristoforu-dalle-3-xl-lora-v2' },
+              { text: 'FlashSD: StableDiffusion3 Distilled Model', link: '/en/draw/jasperai-flash-sd3' },
+              { text: 'Three Elements Image Synthesis (Style, Character, Action)', link: '/en/draw/okaris-omni-zero' },
+              { text: 'PixArt-Sigma 1024px', link: '/en/draw/pixart-alpha-pixart-sigma' },
+              { text: 'Online Drawing V2.5', link: '/en/draw/playgroundai-playground-v2-5' },
+              { text: 'GALLO 3XL Online Drawing', link: '/en/draw/prithivmlmods-gallo-3xl' },
+              { text: 'Free 4K Image Generate', link: '/en/draw/prithivmlmods-imagineo-4k' },
+              { text: 'Tencent - Hunyuan Drawing', link: '/en/draw/tencent-hunyuan-hunyuandit' }
+            ]            
+          }],
+          '/en/media/': [{
+            text: 'Media',
+            items: [
+              { text: 'Video Translation SoniTranslate', link: '/en/media/r3gm-sonitranslate-translate-audio-of-a-video-content' },
+              { text: 'Image High-Resolution Upscaling', link: '/en/media/gokaygokay-aurasr' },
+              { text: 'Remove Video Background (Forever Free)', link: '/en/media/amirgame197-remove-video-background' },
+              { text: 'Remove Image Background (Forever Free)', link: '/en/media/schroneko-transparent-background' },
+              { text: 'Add Background Sound Effects to a Video Based on Instructions', link: '/en/media/ymzhang319-foleycrafter' },
+              { text: 'Text-to-Audio Stable Audio Generator', link: '/en/media/artificialguybr-stable-audio-open-zero' },
+              { text: 'Text-to-Audio ChatTTS Forge', link: '/en/media/lenml-chattts-forge' },
+              { text: 'Audio to Text Whisper Large V3: Transcribe Audio', link: '/en/media/hf-audio-whisper-large-v3' },
+              { text: 'Text-to-Video Open-Sora', link: '/en/media/kadirnar-open-sora' },
+              { text: 'Text-to-Video AnimateDiff-Lightning', link: '/en/media/bytedance-animatediff-lightning' },
+              { text: 'Text-to-Video Adaface animate', link: '/en/media/adaface-neurips-adaface-animate' },
+              { text: 'Text-to-Video Animagine XL 3.0', link: '/en/media/linaqruf-animagine-xl' },
+              { text: 'Image-to-Video Stable Video Diffusion Img2Vid', link: '/en/media/xi0v-stable-video-diffusion-img2vid' },
+              { text: 'Video Content Analysis VideoLLaMA 2', link: '/en/media/lixin4ever-videollama2' },
+              { text: 'Tencent Avatar Creation', link: '/en/media/tencentarc-photomaker' },
+              { text: 'Face to All Avatar Creation', link: '/en/media/multimodalart-face-to-all' },
+              { text: 'Image Content Recognition', link: '/en/media/gokaygokay-florence-2' },
+              { text: 'Image Content Recognition (Multimodal Source Information)', link: '/en/media/epfl-vilab-4m' },
+              { text: 'IC-Light Modify Image Light Source', link: '/en/media/lllyasviel-ic-light' },
+              { text: 'Extract Image Prompts and Convert to Line Art', link: '/en/media/tori29umai-sketch2lineart' },
+              { text: 'Image Depth Calculation', link: '/en/media/depth-anything-depth-anything-v2' },
+              { text: 'Video Depth Calculation', link: '/en/media/jhshao-chronodepth' },
+              { text: 'Edit Video Based on Prompts', link: '/en/media/koi953215-narcan-demo' },
+              { text: 'Get Detailed Image Description', link: '/en/media/gokaygokay-sd3-long-captioner' },
+              { text: 'Generate a Panoramic Video of a 3D Model (Rotating Around)', link: '/en/media/ashawkey-lgm' },
+              { text: 'Generate a 3D Model in GLB Format Based on an Image', link: '/en/media/wuvin-unique3d' },
+              { text: 'Cartoon Video Generation (2 Seconds)', link: '/en/media/doubiiu-tooncrafter' },
+              { text: 'Image-to-Video (4 Seconds)', link: '/en/media/modelscope-exvideo-svd-128f-v1' },
+              { text: 'Image-to-Video (3 Seconds) AnimateLCM', link: '/en/media/wangfuyun-animatelcm-svd' },
+              { text: 'Image Blending PuLID', link: '/en/media/yanze-pulid' },
+              { text: 'Remove 3D Image Background and Generate 3D (Multi-View) Model', link: '/en/media/tencentarc-instantmesh' },
+              { text: 'Audio Generation AICoverGen', link: '/en/media/r3gm-aicovergen' },
+              { text: 'Image to Audio', link: '/en/media/fffiloni-image-to-music-v2' },
+              { text: 'IP-Adapter-FaceID Plus', link: '/en/media/multimodalart-ip-adapter-faceid' }
+            ]            
+          }],
+          '/en/tool/': [{
+            text: 'Tool',
+            items: [
+              { "text": "Screenshot to HTML", "link": "/en/tool/huggingfacem4-screenshot2html" },
+              { "text": "AI Outfit Diffusion", "link": "/en/tool/levihsu-ootdiffusion" },
+              { "text": "AI Outfit Change", "link": "/en/tool/yisol-idm-vton" },
+              { "text": "Video to VR", "link": "/en/tool/koi953215-diffir2vr" },
+              { "text": "Emoji Generation", "link": "/en/tool/cfahlgren1-emoji-generator-by-fofr" },
+              { "text": "Instruction Pretraining", "link": "/en/tool/davanstrien-instruction-synthesizer" },
+              { "text": "Math Solver Expert", "link": "/en/tool/tonic-math" },
+              { "text": "Open LLM Leaderboard", "link": "/en/tool/open-llm-leaderboard-open-llm-leaderboard" }
+            ]
+          }],
+          '/en/api-key/': [{
+            text: 'API Key',
+            items: [
+              
+            ]
+          }],
+          '/en/software/': [{
+            text: 'Software',
+            items: [
+            ]
+          }],
+          '/en/fk-pay/': [{
+            text: 'Free Try',
+            items: [
+            ]
+          }],
+          '/en/about/': [{
+            text: 'About Us',
+            items: [
+              { text: 'About us', link: '/en/about' },
+              { text: 'Mail to us', link: '/en/about/concat' }
+            ]
+          }],
+        },
     
         footer: {
           copyright: 'Copyright © 2020-present, Free For You!'
