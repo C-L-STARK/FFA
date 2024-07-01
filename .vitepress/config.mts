@@ -350,7 +350,7 @@ export default defineConfig({
                 items: [
                   {
                     text: "Zettlr 3.2.0 论文Markdown写作编辑",
-                    link: "/software/windows/index",
+                    link: "/software/windows/zettlr-win",
                   },
                   {
                     text: "OfficeSuite Premium 8.70.56193 Office 办公套件",
@@ -10976,7 +10976,7 @@ export default defineConfig({
             {
               text: "Windows",
               items: [
-                { text: 'Zettlr 3.2.0 论文Markdown写作编辑', link: '/software/windows/index' },
+                { text: 'Zettlr 3.2.0 论文Markdown写作编辑', link: '/software/windows/zettlr-win' },
                 { text: 'OfficeSuite Premium 8.70.56193 Office 办公套件', link: '/software/windows/officesuite-premium' },
                 { text: 'PMLite 1.1.2.2 图像校正漂白', link: '/software/windows/pmlite' },
                 { text: 'Remote Desktop Manager Enterprise 2024.1.32.0 远程桌面连接管理', link: '/software/windows/remote-desktop-manager-enterprise-win' },
