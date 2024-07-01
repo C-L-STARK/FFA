@@ -18,7 +18,7 @@ features:
     linkText: 免费绘画
   - title: 多媒体
     details: 免费体验文生视频、声音克隆、图像增强、图像背景擦除等媒体工具
-    link: /media
+    link: /media/r3gm-sonitranslate-translate-audio-of-a-video-content
     linkText: 免费媒体工具
   - title: API KEY
     details: 免费获得 API-KEY，免费学习如何架设自己的逆向 API 服务器，学习如何鉴别 API-KEY 提供商廉价背后的黑幕！
@@ -26,7 +26,7 @@ features:
     linkText: 免费 API Key
   - title: 小工具
     details: 免费体验 AI 时代的各种免费小工具，了解其制作原理，，学习如何制作，避坑！
-    link: /tool
+    link: /tool/huggingfacem4-screenshot2html
     linkText: 免费工具
   - title: 软件
     details: 免费下载安装各类软件，免费软件全部经过沙箱安全测试，放心下载使用。

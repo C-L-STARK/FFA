@@ -18,7 +18,7 @@ features:
     linkText: Free Painting
   - title: Multimedia
     details: Free trial of text-to-video, voice cloning, image enhancement, image background removal, and other media tools
-    link: /en/media
+    link: /en/media/r3gm-sonitranslate-translate-audio-of-a-video-content
     linkText: Free Media Tools
   - title: API KEY
     details: Free API-KEY, learn how to set up your own reverse API server, learn how to identify the behind-the-scenes tricks behind cheap API-KEY providers!
@@ -26,7 +26,7 @@ features:
     linkText: Free API Key
   - title: Small Tools
     details: Free trial of various free small tools in the AI era, understand the principle of their creation, learn how to create them, and avoid pitfalls!
-    link: /en/tool
+    link: /en/tool/huggingfacem4-screenshot2html
     linkText: Free Tools
   - title: Software
     details: Free download and install various software, all free software has been tested for sandbox security, download and use with confidence.
