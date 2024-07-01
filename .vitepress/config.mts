@@ -11,6 +11,42 @@ export default defineConfig({
     ['link', { rel: "mask-icon", href: "https://oss.fastx-ai.com/file/upload/2024/06/26/1805820379432751104.png", color: "#3a0839"}],
     ['link', { rel: "shortcut icon", href: "https://oss.fastx-ai.com/file/upload/2024/06/26/1805820379432751104.png"}],
     ['link', { rel: "shortcut icon", href: "https://oss.fastx-ai.com/file/upload/2024/06/26/1805820379432751104.png"}],
+    [
+      'script',
+      { async: '', src: 'https://www.googletagmanager.com/gtag/js?id=G-J070L3EGGL' }
+    ],
+    [
+      'script',
+      {},
+      `window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-J070L3EGGL');`
+    ],
+    [
+      'script',
+      { async: '', src: 'https://www.googletagmanager.com/gtag/js?id=G-GDPVLG5X24' }
+    ],
+    [
+      'script',
+      {},
+      `window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-GDPVLG5X24');`
+    ],
+    [
+      'script',
+      { async: '', src: 'https://www.googletagmanager.com/gtag/js?id=G-J070L3EGGL' }
+    ],
+    [
+      'script',
+      {},
+      `window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-J070L3EGGL');`
+    ],
   ],
   themeConfig: {
     search: {
