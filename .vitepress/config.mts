@@ -1,7 +1,6 @@
 import { defineConfig } from "vitepress";
 import { chineseSearchOptimize, pagefindPlugin } from 'vitepress-plugin-pagefind'
 
-
 export default defineConfig({
   title: "FFA (Free For All), Free AI Tools, API Keys, News & Courses ",
   description:
@@ -110,6 +109,7 @@ export default defineConfig({
   vite: {
     plugins: [pagefindPlugin(
       {
+        manual: true,
         locales: {
           en: {
             btnPlaceholder: 'Search',
