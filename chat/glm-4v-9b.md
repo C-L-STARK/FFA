@@ -14,7 +14,9 @@ layout: doc
 
 使用的方法非常的简单，寻找 github 开源 WebUI，填入 key 即可立即享受。
 
-这里我们特别推荐 lobe-chat；为了避免大家的 key 泄露，请使用官方部署。传送带：<a href="https://chat-preview.lobehub.com/" target="_blank">lobe-chat</a>
+这里我们特别推荐 lobe-chat；为了避免大家的 key 泄露，请使用官方部署。
+
+传送带：<a href="https://chat-preview.lobehub.com/" target="_blank">lobe-chat</a>
 
 ## 配置流程
 
