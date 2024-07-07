@@ -1,4 +1,6 @@
 import { defineConfig } from "vitepress";
+import { chineseSearchOptimize, pagefindPlugin } from 'vitepress-plugin-pagefind'
+
 
 export default defineConfig({
   title: "FFA (Free For All), Free AI Tools, API Keys, News & Courses ",
@@ -105,10 +107,31 @@ export default defineConfig({
     },
     logo: "/logo.png",
   },
+  vite: {
+    plugins: [pagefindPlugin(
+      {
+        locales: {
+          en: {
+            btnPlaceholder: 'Search',
+            placeholder: 'Search Docs...',
+            emptyText: 'No results',
+            heading: 'Total: {{searchResult}} search results.',
+          },
+          root: {
+            btnPlaceholder: '搜索',
+            placeholder: '搜索文档',
+            emptyText: '空空如也',
+            heading: '共: {{searchResult}} 条结果',
+            // 搜索结果不展示最后修改日期日期
+            showDate: false
+          }
+        }
+      }
+    )],
+  },
   sitemap: {
     hostname: "https://free.fastx-ai.com",
   },
-
   locales: {
     root: {
       label: "简体中文",
