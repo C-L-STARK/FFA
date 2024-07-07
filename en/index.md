@@ -57,14 +57,6 @@ import { VPTeamMembers } from 'vitepress/theme'
 
 const members = [
   {
-    avatar: 'https://huggingface.co/front/assets/huggingface_logo-noborder.svg',
-    name: 'HuggingFace',
-    title: 'spaces',
-    desc: '',
-    org: 'HuggingFace',
-    orgLink: 'https://huggingface.co',
-  },
-  {
     avatar: 'https://www.gradio.app/favicon.png',
     name: 'Gradio',
     title: 'app',
