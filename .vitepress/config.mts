@@ -136,6 +136,10 @@ export default defineConfig({
                 text: "IDEFICS2-Instruction",
                 link: "/chat/IDEFICS2-Instruction",
               },
+              {
+                text: "Moshi-Voice-Chat",
+                link: "/chat/moshi",
+              },
             ],
           },
           {
@@ -13684,6 +13688,10 @@ export default defineConfig({
               {
                 text: "IDEFICS2-Instruction",
                 link: "/en/chat/IDEFICS2-Instruction",
+              },
+              {
+                text: "Moshi-Voice-Chat",
+                link: "/en/chat/moshi",
               },
             ],
           },
