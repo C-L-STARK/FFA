@@ -6,7 +6,7 @@ export default defineConfig({
   description:
     "Discover a treasure trove of free AI tools, API keys, news, and courses. Get your hands on GPT-3.5, Stable Diffusion, Midjourney, TTS, STT, AI translation, and more – all for free! Photon AI is your gateway to the world of AI, empowering you with knowledge and resources. ",
   lastUpdated: true,
-  // cleanUrls: true,
+  cleanUrls: true,
   head: [
     [
       "link",
