@@ -56,7 +56,14 @@ export default {
           "title": "开源大模型排行榜",
           "url": "https://open-llm-leaderboard-open-llm-leaderboard.hf.space"
         }
-      }
+      },
+      {
+        "params": {
+          "pkg": "m3u8-mp4",
+          "title": "m3u8 在线转换 mp4 并下载",
+          "url": "https://m3u8tomp4.com/cn/"
+        }
+      },
     ];
   },
 };

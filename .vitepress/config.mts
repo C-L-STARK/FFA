@@ -107,7 +107,7 @@ export default defineConfig({
     logo: "/logo.png",
   },
   sitemap: {
-    hostname: "https://free.fastx-ai.com",
+    hostname: "https://bedtimestoriess.com",
   },
   locales: {
     root: {
