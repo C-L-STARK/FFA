@@ -99,6 +99,14 @@ export default defineConfig({
       gtag('js', new Date());
       gtag('config', 'G-J070L3EGGL');`,
     ],
+    [
+      "script",
+      {
+        async: "",
+        src: 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4716648346526807',
+        crossOrigin: 'anonymous'
+      },
+    ]
   ],
   themeConfig: {
     search: {
